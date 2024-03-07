@@ -1,8 +1,8 @@
 • LAB TASKS:
 
-  • Log into the Snowball server using SSH.
-  • Use the 'script' utility to record the interactive terminal session.
-  • Perform and record tasks on the Snowball server using shell commands and utilities:
+  • Log into the Snowball server using SSH. <br/>
+  • Use the 'script' utility to record the interactive terminal session. <br/>
+  • Perform and record tasks on the Snowball server using shell commands and utilities: <br/>
   
     1️⃣ Create a 'csc3320' directory in the user's home directory.
     2️⃣ Change the working directory to the newly created 'csc3320' directory.
@@ -15,7 +15,7 @@
     9️⃣ Research the 'echo' command in UNIX manual.
     🔟 Use the 'echo' command to display a welcome message in the terminal
 
-  • Verify the script recording.
-  • Transfer the typescript log file from the Snowball server to a local PC using SFTP
+  • Verify the script recording. <br/> 
+  • Transfer the typescript log file from the Snowball server to a local PC using SFTP. <br/>
   
     
