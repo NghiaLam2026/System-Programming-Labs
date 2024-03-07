@@ -1,7 +1,9 @@
 • LAB TASKS💻:
 
   • Log into the Snowball server using SSH.
+  
   • Use the 'script' utility to record the interactive terminal session.
+  
   • Perform and record tasks on the Snowball server using shell commands and utilities:
   
     1️⃣ Create a 'csc3320' directory in the user's home directory.
