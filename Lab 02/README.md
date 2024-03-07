@@ -1,4 +1,4 @@
-• LAB TASKS💻:
+• LAB TASKS:
 
   • Log into the Snowball server using SSH.
   • Use the 'script' utility to record the interactive terminal session.
