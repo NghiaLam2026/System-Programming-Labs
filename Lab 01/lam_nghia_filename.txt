@@ -1,0 +1,763 @@
+Script started on Thu 18 Jan 2024 10:56:56 AM EST
+]0;nlam15@gsuad.gsu.edu@snowball:~[?1034h[nlam15@gsuad.gsu.edu@snowball ~]$ mkdir csc3320
+]0;nlam15@gsuad.gsu.edu@snowball:~[nlam15@gsuad.gsu.edu@snowball ~]$ cd csc3320
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp[K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cp /home/fhawamdeh1/csc3320/lab01/syllabus
+cp: missing destination file operand after ‘/home/fhawamdeh1/csc3320/lab01/syllabus’
+Try 'cp --help' for more information.
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ [K[nlam15@gsuad.gsu.edu@snowball csc3320]$ cs [K[Kp /home/fhawamdeh1/csc3320/lab01/syllabus .
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ ls
+syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ more syllabus
+Instructor: Faris Hawamdeh
+
+Office Hours: TR 3:00 pm - 4:00 pm, or by appointment
+Room 742, 25 Park Place 7th floor
+Webex Meetings by appointment
+
+E-mail: fhawamdeh1@gsu.edu
+
+TAs: Sean Brown sbrown264@student.gsu.edu
+Vaishnavi Veeranki vveeranki2@student.gsu.edu
+Keerthana Aluri kaluri1@student.gsu.edu
+
+TA Office Hours: TBA on iCollege
+
+Course Description
+This course is designed to give students experience in using a high-level language (C) to interface with an
+operating system (UNIX). Students will learn fundamental UNIX concepts, including files, processes,
+interprocess communication, and shells. They will also gain experience writing and testing C programs
+using UNIX editors and programming tools.
+
+Course Outcomes
+
+1. Proficient in using Remote Systems though SSH and SFTP.
+2. Proficient in using UNIX/Linux Systems and Shell commands.
+3. Write C programs to solve problems.
+4. Demonstrate knowledge of process mechanisms such as pipe, fork, exec, etc...
+5. Apply structs to access directory contents and/or process data.
+
+Supplemental Textbooks: (Not Required)
+1. King, C Programming: A Modern Approach, Norton, 2nd edition, 2008, ISBN-13: 978-0393979503.
+2. Glass and Ables, Unix for Programmers and Users, Prentice Hall, Third Edition (2003), ISBN 0-13-046553-4.
+
+Grade Distribution
+Item 					% of Final Grade
+Top Hat Participation/Attendance 	5%
+[7m--More--(20%)[27m[KHomework 				20%
+Quizzes 				10%
+Labs 					25%
+Mid-Term Exam 				20%
+Final Exam 				20%
+
+Tentative Course Schedule
+Week of: Topics: Readings
+Jan 8 	Course Introduction, UNIX, and SSH 			Unix: Chapter 1
+Jan 15 	UNIX (cont.), Compiling a C program 			Unix: Chapter 2
+Jan 22 	Introduction to C 					C: Chapter 1
+Jan 29 	C Fundamentals 						C: Chapter 2
+Feb 5 	C Fundamentals (cont.) 					C: Chapter 2
+Feb 12 	I/O, Expressions, Selection Statements, and Loops 	C: Chapters 3-6
+Feb 19 	Arrays and Functions 					C: Chapters 8, 9
+Feb 26 	Mid-Term Exam, Pointers 				C: Chapter 11
+Mar 4 	Pointers (cont.) 					C: Chapter 11
+Mar 11 	Spring Break 						N/A
+Mar 18 	Pointers and Arrays 					C: Chapter 12
+Mar 25 	Strings 						C: Chapter 13
+Nov 13 	Structures and Unions, Advanced Pointers 		C: Chapter 16, 17
+Apr 1 	UNIX Utilities, UNIX Shell 				Unix: Chapter 3, 4
+Apr 8 	C Programming Tools 					Unix: Chapter 12
+Apr 15 	UNIX Internals 						Unix: Chapter 14
+Apr 22 	Finals Week, Final Exam 				N/A
+Note: Topic dates are subject to change.
+
+Important Dates
+Last day to drop � January 12th at 5 pm.
+Last day to withdraw � February 27th.
+Final Exam Day � April 23rd at 10:45 am.
+
+Class Participation
+Full participation is expected. Be ready to answer questions, work with others in a group, or solve
+problems via Top Hat.
+[7m--More--(40%)[27m[K
+Attendance Policy
+Lab attendance is mandatory for all students. If you miss your lab, you may make up the lab by
+attending another lab during the same week. You must contact the TA in charge of that lab to request
+attending. Space is limited and not all requests will be granted. If you experience an emergency that
+forces you to miss a week or more, complete the Professor Absence Notification with the Dean of
+Students at this link.
+
+Attendance is vital to success in this class. Attendance will be taken either directly using Top Hat or
+through participation in Top Hat questions.
+
+Homework
+There will be 4 or 5 homework assignments covering most topics in the course. Homework assignments
+are to be completed individually unless specified otherwise. Homework will consist of larger
+programming problems than the labs. You will need to break these down into smaller problems. It is
+important to spend the time experimenting with the various program elements, so start your homework
+promptly.
+
+Submission
+Homeworks and Labs must be turned in electronically on iCollege. Homeworks may be accepted one day
+later with a 15% penalty. Labs must be turned in by the end of the day for your respective lab session.
+Lab assignments will not be accepted after the deadline.
+
+Exams
+There will be 2 exams given in this course. The mid-term exam will be given in class on Tuesday,
+February 7th, 2024. The final exam will be given in class on Tuesday, April 23rd, 2024. Because the exam
+dates are announced in advance, there will be no make-up exams for unexcused absences.
+
+Communication
+Primary communication should be done via email to my @gsu.edu email address. Do not use the
+iCollege internal mailing system. I do not check that inbox nor does it forward to my GSU email inbox.
+Put the course number, 3320, in the subject line so I can differentiate between classes. If you have an
+issue with grading, please speak with me during office hours.
+
+I also have a @student.gsu.edu email address, but I do not check it regularly. Do not expect a fast
+[7m--More--(71%)[27mresponse if it was sent to my student email address. Due to the way the email addresses are set up, my
+student email address is the one that autocompletes.
+
+Academic Dishonesty
+All work, including homework, programming assignments, and exams, should be your sole work. You
+should not work with other students on shared program solutions or use program solutions found on
+the Internet. Specifically, you should never copy someone else�s solution or code, and never let a
+classmate examine your code. If you are having trouble with an assignment, please consult with me, or
+a TA.
+
+You can find GSU�s code of conduct for academic dishonesty at this link. If you are caught cheating or
+plagiarizing, you will receive an immediate and final grade of �F� and will be reported to the Dean of
+Students. All parties will be treated equally, so I will not distinguish between the student who copies the
+solution and the student who provided it.
+
+Artificial Intelligence Statement
+You are not allowed to use generative AI tools like ChatGPT for any graded work in this course, including
+lab assignments. Prohibited AI usage includes idea or text generation, writing or revising your work,
+development of media assets, or data analysis and presentation. You may use a generative AI tool like
+ChatGPT only when it is specifically permitted as part of an assignment.
+
+
+Americans with Disabilities Act
+�Students who wish to request accommodation for a disability may do so by registering with the Access
+and Accommodation Center. Students may only be accommodated upon issuance by the Access and
+Accommodation Center of a signed Accommodation Plan and are responsible for providing a copy of
+that plan to instructors of all classes in which accommodations are sought.�
+
+Note: This content of this Syllabus is tentative and subject to change during the semester.
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$  wc syllabus
+ 134 1055 6564 syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ ls
+syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ mv syllabus csc3320_syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ ls
+csc3320_syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ chmod o+w csc3320_syllabus
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ man man
+[?1049h[?1h=MAN(1)                                                  Manual pager utils                                                 MAN(1)[m
+[m
+[1mNAME[0m[m
+       man - an interface to the on-line reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [[1m--warnings[0m[=[4mwarnings[24m]] [[1m-R[0m [4mencoding[24m] [[1m-L[0m [4mlocale[24m] [[1m-m[0m [4msystem[24m[,...]] [[1m-M[0m [4mpath[24m] [[1m-S[0m [4mlist[24m] [[1m-e[0m [4mexten‐[24m[m
+       [4msion[24m] [[1m-i[0m|[1m-I[0m] [[1m--regex[0m|[1m--wildcard[0m] [[1m--names-only[0m] [[1m-a[0m] [[1m-u[0m] [[1m--no-subpages[0m] [[1m-P[0m [4mpager[24m]  [[1m-r[0m  [4mprompt[24m]  [[1m-7[0m]  [[1m-E[0m  [4mencoding[24m][m
+       [[1m--no-hyphenation[0m]   [[1m--no-justification[0m]   [[1m-p[0m   [4mstring[24m]   [[1m-t[0m]  [[1m-T[0m[[4mdevice[24m]]  [[1m-H[0m[[4mbrowser[24m]]  [[1m-X[0m[[4mdpi[24m]]  [[1m-Z[0m]  [[[4msection[24m][m
+       [4mpage[24m ...] ...[m
+       [1mman[0m [1m-k[0m [[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman[0m [1m-K[0m [[1m-w[0m|[1m-W[0m] [[1m-S[0m [4mlist[24m] [[1m-i[0m|[1m-I[0m] [[4m--regex[24m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman[0m [1m-f[0m [[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman[0m [1m-l[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [[1m--warnings[0m[=[4mwarnings[24m]] [[1m-R[0m [4mencoding[24m] [[1m-L[0m [4mlocale[24m] [[1m-P[0m [4mpager[24m] [[1m-r[0m [4mprompt[24m] [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m-p[0m[m
+       [4mstring[24m] [[1m-t[0m] [[1m-T[0m[[4mdevice[24m]] [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m] [4mfile[24m ...[m
+       [1mman[0m [1m-w[0m|[1m-W[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [1m-c[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [[1m-?V[0m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mman[0m  is the system's manual pager. Each [4mpage[24m argument given to [1mman[0m is normally the name of a program, utility or function.[m
+       The [4mmanual[24m [4mpage[24m associated with each of these arguments is then found and displayed. A [4msection[24m, if provided,  will  direct[m
+       [1mman[0m to look only in that [4msection[24m of the manual.  The default action is to search in all of the available [4msections[24m, follow‐[m
+       ing a pre-defined order and to show only the first [4mpage[24m found, even if [4mpage[24m exists in several [4msections[24m.[m
+[m
+       The table below shows the [4msection[24m numbers of the manual followed by the types of pages they contain.[m
+[m
+       1   Executable programs or shell commands[m
+       2   System calls (functions provided by the kernel)[m
+       3   Library calls (functions within program libraries)[m
+       4   Special files (usually found in [4m/dev[24m)[m
+       5   File formats and conventions eg [4m/etc/passwd[24m[m
+       6   Games[m
+       7   Miscellaneous (including macro packages and conventions), e.g. [1mman[0m(7), [1mgroff[0m(7)[m
+       8   System administration commands (usually only for root)[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       9   Kernel routines [Non standard][m
+[7m Manual page man(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page man(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A manual [4mpage[24m consists of several sections.[m
+[7m Manual page man(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Conventional section names include [1mNAME[0m, [1mSYNOPSIS[0m, [1mCONFIGURATION[0m, [1mDESCRIPTION[0m, [1mOPTIONS[0m, [1mEXIT[0m [1mSTATUS[0m, [1mRETURN[0m [1mVALUE[0m, [1mERRORS[0m,[m
+[7m Manual page man(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mENVIRONMENT[0m, [1mFILES[0m, [1mVERSIONS[0m, [1mCONFORMING[0m [1mTO[0m, [1mNOTES[0m, [1mBUGS[0m, [1mEXAMPLE[0m, [1mAUTHORS[0m, and [1mSEE[0m [1mALSO[0m.[m
+[7m Manual page man(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following conventions apply to the [1mSYNOPSIS[0m section and can be used as a guide in other sections.[m
+[7m Manual page man(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mbold[0m [1mtext[0m          type exactly as shown.[m
+[7m Manual page man(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mitalic[24m [4mtext[24m        replace with appropriate argument.[m
+[7m Manual page man(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [[1m-abc[0m]             any or all arguments within [ ] are optional.[m
+[7m Manual page man(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m|[1m-b[0m              options delimited by | cannot be used together.[m
+[7m Manual page man(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4margument[24m ...       [4margument[24m is repeatable.[m
+[7m Manual page man(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [[4mexpression[24m] ...   entire [4mexpression[24m within [ ] is repeatable.[m
+[7m Manual page man(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Exact  rendering  may  vary  depending on the output device.  For instance, man will usually not be able to render italics[m
+[7m Manual page man(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       when running in a terminal, and will typically use underlined or coloured text instead.[m
+[7m Manual page man(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The command or function illustration is a pattern that should match all possible invocations.  In some cases it is  advis‐[m
+[7m Manual page man(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       able to illustrate several exclusive invocations as is shown in the [1mSYNOPSIS[0m section of this manual page.[m
+[7m Manual page man(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page man(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [4mls[24m[m
+[7m Manual page man(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display the manual page for the [4mitem[24m (program) [4mls[24m.[m
+[7m Manual page man(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [1m-a[0m [4mintro[24m[m
+[7m Manual page man(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display,  in  succession, all of the available [4mintro[24m manual pages contained within the manual.  It is possible to quit[m
+[7m Manual page man(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           between successive displays or skip any of them.[m
+[7m Manual page man(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [1m-t[0m [4malias[24m | [4mlpr[24m [4m-Pps[24m[m
+[7m Manual page man(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Format the manual page referenced by `[4malias[24m', usually a shell manual page, into the default [1mtroff[0m or [1mgroff[0m format  and[m
+[7m Manual page man(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           pipe  it to the printer named [4mps[24m.  The default output for [1mgroff[0m is usually PostScript.  [1mman[0m [1m--help[0m should advise as to[m
+[7m Manual page man(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           which processor is bound to the [1m-t[0m option.[m
+[7m Manual page man(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [1m-l[0m [1m-T[0m[4mdvi[24m [4m./foo.1x.gz[24m [1m>[0m [4m./foo.1x.dvi[24m[m
+[7m Manual page man(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This command will decompress and format the nroff source manual page [4m./foo.1x.gz[24m into a [1mdevice[0m [1mindependent[0m [1m(dvi)[0m file.[m
+[7m Manual page man(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The redirection is necessary as the [1m-T[0m flag causes output to be directed to [1mstdout[0m with no pager.  The output could be[m
+[7m Manual page man(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           viewed with a program such as [1mxdvi[0m or further processed into PostScript using a program such as [1mdvips.[0m[m
+[7m Manual page man(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [1m-k[0m [4mprintf[24m[m
+[7m Manual page man(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Search the short descriptions and manual page names for the keyword [4mprintf[24m  as  regular  expression.   Print  out  any[m
+[7m Manual page man(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           matches.  Equivalent to [1mapropos[0m [1m-r[0m [4mprintf[24m[1m.[0m[m
+[7m Manual page man(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m [1m-f[0m [4msmail[24m[m
+[7m Manual page man(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Lookup  the  manual  pages  referenced  by  [4msmail[24m  and  print  out the short descriptions of any found.  Equivalent to[m
+[7m Manual page man(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mwhatis[0m [1m-r[0m [4msmail[24m[1m.[0m[m
+[7m Manual page man(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOVERVIEW[0m[m
+[7m Manual page man(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Many options are available to [1mman[0m in order to give as much flexibility as possible to the user.  Changes can  be  made  to[m
+[7m Manual page man(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the search path, section order, output processor, and other behaviours and operations detailed below.[m
+[7m Manual page man(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  set,  various  environment  variables  are  interrogated to determine the operation of [1mman[0m.  It is possible to set the[m
+[7m Manual page man(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       `catch all' variable $[1mMANOPT[0m to any string in command line format with the exception that any spaces used as  part  of  an[m
+[7m Manual page man(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option's  argument  must  be  escaped  (preceded by a backslash).  [1mman[0m will parse $[1mMANOPT[0m prior to parsing its own command[m
+[7m Manual page man(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       line.  Those options requiring an argument will be overridden by the same options found on the command line.  To reset all[m
+[7m Manual page man(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       of  the  options  set in $[1mMANOPT[0m, [1m-D[0m can be specified as the initial command line option.  This will allow man to `forget'[m
+[7m Manual page man(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       about the options specified in $[1mMANOPT[0m although they must still have been valid.[m
+[7m Manual page man(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The manual pager utilities packaged as [1mman-db[0m make extensive use of [1mindex[0m database caches.  These caches contain  informa‐[m
+[7m Manual page man(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tion  such as where each manual page can be found on the filesystem and what its [4mwhatis[24m (short one line description of the[m
+[7m Manual page man(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       man page) contains, and allow [1mman[0m to run faster than if it had to search the filesystem each time to find the  appropriate[m
+[7m Manual page man(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       manual  page.   If requested using the [1m-u[0m option, [1mman[0m will ensure that the caches remain consistent, which can obviate the[m
+[7m Manual page man(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       need to manually run software to update traditional [4mwhatis[24m text databases.[m
+[7m Manual page man(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If [1mman[0m cannot find a [1mmandb[0m initiated [1mindex[0m database for a particular manual page hierarchy, it will still search  for  the[m
+[7m Manual page man(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       requested  manual  pages,  although file globbing will be necessary to search within that hierarchy.  If [1mwhatis[0m or [1mapropos[0m[m
+[7m Manual page man(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       fails to find an [1mindex[0m it will try to extract information from a traditional [4mwhatis[24m database instead.[m
+[7m Manual page man(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       These utilities support compressed source nroff files having, by default, the extensions of [1m.Z[0m, [1m.z[0m and [1m.gz[0m.  It is  possi‐[m
+[7m Manual page man(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ble to deal with any compression extension, but this information must be known at compile time.  Also, by default, any cat[m
+[7m Manual page man(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pages produced are compressed using [1mgzip[0m.  Each `global' manual page hierarchy such as  [4m/usr/share/man[24m  or  [4m/usr/X11R6/man[24m[m
+[7m Manual page man(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       may  have any directory as its cat page hierarchy.  Traditionally the cat pages are stored under the same hierarchy as the[m
+[7m Manual page man(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       man pages, but for reasons such as those specified in the [1mFile[0m [1mHierarchy[0m [1mStandard[0m [1m(FHS)[0m, it may be better  to  store  them[m
+[7m Manual page man(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       elsewhere.  For details on how to do this, please read [1mmanpath[0m(5).  For details on why to do this, read the standard.[m
+[7m Manual page man(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       International  support  is available with this package.  Native language manual pages are accessible (if available on your[m
+[7m Manual page man(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       system) via use of [4mlocale[24m functions.  To activate such support, it is necessary  to  set  either  $[1mLC_MESSAGES[0m,  $[1mLANG[0m  or[m
+[7m Manual page man(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       another system dependent environment variable to your language locale, usually specified in the [1mPOSIX[0m [1m1003.1[0m based format:[m
+[7m Manual page man(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <[4mlanguage[24m>[[4m_[24m<[4mterritory[24m>[[1m.[0m<[4mcharacter-set[24m>[[1m,[0m<[4mversion[24m>]]][m
+[7m Manual page man(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  the  desired page is available in your [4mlocale[24m, it will be displayed in lieu of the standard (usually American English)[m
+[7m Manual page man(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       page.[m
+[7m Manual page man(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Support for international message catalogues is also featured in this package and can be activated in the same way,  again[m
+[7m Manual page man(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       if  available.   If  you find that the manual pages and message catalogues supplied with this package are not available in[m
+[7m Manual page man(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       your native language and you would like to supply them, please contact the maintainer who will be coordinating such activ‐[m
+[7m Manual page man(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ity.[m
+[7m Manual page man(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For  information  regarding other features and extensions available with this manual pager, please read the documents sup‐[m
+[7m Manual page man(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       plied with the package.[m
+[7m Manual page man(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDEFAULTS[0m[m
+[7m Manual page man(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mman[0m will search for the desired manual pages within the [4mindex[24m database caches. If the [1m-u[0m option is given, a cache  consis‐[m
+[7m Manual page man(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tency check is performed to ensure the databases accurately reflect the filesystem.  If this option is always given, it is[m
+[7m Manual page man(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not generally necessary to run [1mmandb[0m after the caches are initially created, unless a cache becomes corrupt.  However, the[m
+[7m Manual page man(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cache  consistency  check  can be slow on systems with many manual pages installed, so it is not performed by default, and[m
+[7m Manual page man(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       system administrators may wish to run [1mmandb[0m every week or so to keep the database caches  fresh.   To  forestall  problems[m
+[7m Manual page man(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       caused  by  outdated caches, [1mman[0m will fall back to file globbing if a cache lookup fails, just as it would if no cache was[m
+[7m Manual page man(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       present.[m
+[7m Manual page man(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Once a manual page has been located, a check is performed to find out if a relative preformatted `cat' file already exists[m
+[7m Manual page man(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and is newer than the nroff file.  If it does and is, this preformatted file is (usually) decompressed and then displayed,[m
+[7m Manual page man(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       via use of a pager.  The pager can be specified in a number of ways, or else will fall back to  a  default  is  used  (see[m
+[7m Manual page man(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option  [1m-P[0m  for  details).  If no cat is found or is older than the nroff file, the nroff is filtered through various pro‐[m
+[7m Manual page man(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       grams and is shown immediately.[m
+[7m Manual page man(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If a cat file can be produced (a relative cat directory exists and has appropriate permissions),  [1mman[0m  will  compress  and[m
+[7m Manual page man(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       store the cat file in the background.[m
+[7m Manual page man(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The filters are deciphered by a number of means. Firstly, the command line option [1m-p[0m or the environment variable $[1mMANROFF‐[0m[m
+[7m Manual page man(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mSEQ[0m is interrogated. If [1m-p[0m was not used and the environment variable was not set, the initial line of the  nroff  file  is[m
+[7m Manual page man(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       parsed for a preprocessor string.  To contain a valid preprocessor string, the first line must resemble[m
+[7m Manual page man(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m'\"[0m <[1mstring[0m>[m
+[7m Manual page man(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       where [1mstring[0m can be any combination of letters described by option [1m-p[0m below.[m
+[7m Manual page man(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If none of the above methods provide any filter information, a default set is used.[m
+[7m Manual page man(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A  formatting  pipeline  is  formed  from  the filters and the primary formatter ([1mnroff[0m or [[1mtg[0m][1mroff[0m with [1m-t[0m) and executed.[m
+[7m Manual page man(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Alternatively, if an executable program [4mmandb_nfmt[24m (or [4mmandb_tfmt[24m with [1m-t[0m) exists in the man tree  root,  it  is  executed[m
+[7m Manual page man(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       instead.   It  gets passed the manual source file, the preprocessor string, and optionally the device specified with [1m-T[0m or[m
+[7m Manual page man(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E[0m as arguments.[m
+[7m Manual page man(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page man(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Non argument options that are duplicated either on the command line, in $[1mMANOPT[0m, or both, are not  harmful.   For  options[m
+[7m Manual page man(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that require an argument, each duplication will override the previous argument value.[m
+[7m Manual page man(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGeneral[0m [1moptions[0m[m
+[7m Manual page man(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m [4mfile[24m, [1m--config-file=[0m[4mfile[24m[m
+[7m Manual page man(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use this user configuration file rather than the default of [4m~/.manpath[24m.[m
+[7m Manual page man(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--debug[0m[m
+[7m Manual page man(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print debugging information.[m
+[7m Manual page man(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m, [1m--default[0m[m
+[7m Manual page man(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This  option  is normally issued as the very first option and resets [1mman's[0m behaviour to its default.  Its use is to[m
+[7m Manual page man(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              reset those options that may have been set in $[1mMANOPT[0m.  Any options that follow [1m-D[0m will have their usual effect.[m
+[7m Manual page man(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--warnings[0m[=[4mwarnings[24m][m
+[7m Manual page man(1) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Enable warnings from [4mgroff[24m.  This may be used to perform sanity checks on the source text of manual  pages.   [4mwarn‐[24m[m
+[7m Manual page man(1) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mings[24m  is  a comma-separated list of warning names; if it is not supplied, the default is "mac".  See the “Warnings”[m
+[7m Manual page man(1) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              node in [1minfo[0m [1mgroff[0m for a list of available warning names.[m
+[7m Manual page man(1) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mMain[0m [1mmodes[0m [1mof[0m [1moperation[0m[m
+[7m Manual page man(1) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--whatis[0m[m
+[7m Manual page man(1) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Equivalent to [1mwhatis[0m.  Display a short description from the manual page, if available. See [1mwhatis[0m(1) for details.[m
+[7m Manual page man(1) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--apropos[0m[m
+[7m Manual page man(1) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Equivalent to [1mapropos[0m.  Search the short manual page descriptions for keywords and display any matches.  See  [1mapro‐[0m[m
+[7m Manual page man(1) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mpos[0m(1) for details.[m
+[7m Manual page man(1) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-K[0m, [1m--global-apropos[0m[m
+[7m Manual page man(1) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Search  for  text  in all manual pages.  This is a brute-force search, and is likely to take some time; if you can,[m
+[7m Manual page man(1) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              you should specify a section to reduce the number of pages that need to be searched.  Search terms  may  be  simple[m
+[7m Manual page man(1) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              strings (the default), or regular expressions if the [1m--regex[0m option is used.[m
+[7m Manual page man(1) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--local-file[0m[m
+[7m Manual page man(1) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Activate `local' mode.  Format and display local manual files instead of searching through the system's manual col‐[m
+[7m Manual page man(1) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lection.  Each manual page argument will be interpreted as an nroff source file in the correct format.  No cat file[m
+[7m Manual page man(1) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              is  produced.   If  '-' is listed as one of the arguments, input will be taken from stdin.  When this option is not[m
+[7m Manual page man(1) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              used, and man fails to find the page required, before displaying the error message, it attempts to act as  if  this[m
+[7m Manual page man(1) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option was supplied, using the name as a filename and looking for an exact match.[m
+[7m Manual page man(1) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--where[0m, [1m--path[0m, [1m--location[0m[m
+[7m Manual page man(1) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Don't  actually display the manual pages, but do print the location(s) of the source nroff files that would be for‐[m
+[7m Manual page man(1) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matted.[m
+[7m Manual page man(1) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-W[0m, [1m--where-cat[0m, [1m--location-cat[0m[m
+[7m Manual page man(1) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Don't actually display the manual pages, but do print the location(s) of the cat files that would be displayed.  If[m
+[7m Manual page man(1) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              -w and -W are both specified, print both separated by a space.[m
+[7m Manual page man(1) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--catman[0m[m
+[7m Manual page man(1) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This option is not for general use and should only be used by the [1mcatman[0m program.[m
+[7m Manual page man(1) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m [4mencoding[24m, [1m--recode[0m=[4mencoding[24m[m
+[7m Manual page man(1) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Instead  of formatting the manual page in the usual way, output its source converted to the specified [4mencoding[24m.  If[m
+[7m Manual page man(1) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              you already know the encoding of the source file, you can also  use  [1mmanconv[0m(1)  directly.   However,  this  option[m
+[7m Manual page man(1) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              allows  you to convert several manual pages to a single encoding without having to explicitly state the encoding of[m
+[7m Manual page man(1) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              each, provided that they were already installed in a structure similar to a manual page hierarchy.[m
+[7m Manual page man(1) line 187 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mFinding[0m [1mmanual[0m [1mpages[0m[m
+[7m Manual page man(1) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m [4mlocale[24m, [1m--locale=[0m[4mlocale[24m[m
+[7m Manual page man(1) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mman[0m will normally determine your current locale by a call to the C function [1msetlocale[0m(3) which interrogates various[m
+[7m Manual page man(1) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              environment  variables,  possibly  including $[1mLC_MESSAGES[0m and $[1mLANG[0m.  To temporarily override the determined value,[m
+[7m Manual page man(1) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use this option to supply a [4mlocale[24m string directly to [1mman[0m.  Note that it will not take effect until the search  for[m
+[7m Manual page man(1) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              pages  actually  begins.   Output  such  as  the  help message will always be displayed in the initially determined[m
+[7m Manual page man(1) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              locale.[m
+[7m Manual page man(1) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m [4msystem[24m[,...], [1m--systems=[0m[4msystem[24m[,...][m
+[7m Manual page man(1) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If this system has access to other operating system's manual pages, they can be accessed  using  this  option.   To[m
+[7m Manual page man(1) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              search for a manual page from NewOS's manual page collection, use the option [1m-m[0m [1mNewOS[0m.[m
+[7m Manual page man(1) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  [4msystem[24m  specified  can be a combination of comma delimited operating system names.  To include a search of the[m
+[7m Manual page man(1) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              native operating system's manual pages, include the system name [1mman[0m in the argument string.  This option will over‐[m
+[7m Manual page man(1) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ride the $[1mSYSTEM[0m environment variable.[m
+[7m Manual page man(1) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[0m [4mpath[24m, [1m--manpath=[0m[4mpath[24m[m
+[7m Manual page man(1) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specify  an  alternate  manpath to use.  By default, [1mman[0m uses [1mmanpath[0m derived code to determine the path to search.[m
+[7m Manual page man(1) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This option overrides the $[1mMANPATH[0m environment variable and causes option [1m-m[0m to be ignored.[m
+[7m Manual page man(1) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 208 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              A path specified as a manpath must be the root of a manual page hierarchy structured into sections as described  in[m
+[7m Manual page man(1) line 209 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the  man-db  manual  (under  "The  manual page system").  To view manual pages outside such hierarchies, see the [1m-l[0m[m
+[7m Manual page man(1) line 210 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option.[m
+[7m Manual page man(1) line 211 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 212 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m [4mlist[24m, [1m-s[0m [4mlist[24m, [1m--sections=[0m[4mlist[24m[m
+[7m Manual page man(1) line 213 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              List is a colon- or comma-separated list of `order specific' manual sections to search.  This option overrides  the[m
+[7m Manual page man(1) line 214 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              $[1mMANSECT[0m environment variable.  (The [1m-s[0m spelling is for compatibility with System V.)[m
+[7m Manual page man(1) line 215 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 216 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m [4msub-extension[24m, [1m--extension=[0m[4msub-extension[24m[m
+[7m Manual page man(1) line 217 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Some  systems  incorporate  large  packages of manual pages, such as those that accompany the [1mTcl[0m package, into the[m
+[7m Manual page man(1) line 218 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              main manual page hierarchy.  To get around the problem of having two manual  pages  with  the  same  name  such  as[m
+[7m Manual page man(1) line 219 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mexit[0m(3),  the  [1mTcl[0m pages were usually all assigned to section [1ml[0m.  As this is unfortunate, it is now possible to put[m
+[7m Manual page man(1) line 220 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the pages in the correct section, and to assign a specific `extension' to them, in this  case,  [1mexit[0m(3tcl).   Under[m
+[7m Manual page man(1) line 221 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              normal  operation,  [1mman[0m will display [1mexit[0m(3) in preference to [1mexit[0m(3tcl).  To negotiate this situation and to avoid[m
+[7m Manual page man(1) line 222 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              having to know which section the page you require resides in, it is now possible to give [1mman[0m a [4msub-extension[24m string[m
+[7m Manual page man(1) line 223 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              indicating which package the page must belong to.  Using the above example, supplying the option [1m-e[0m [1mtcl[0m to [1mman[0m will[m
+[7m Manual page man(1) line 224 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              restrict the search to pages having an extension of [1m*tcl[0m.[m
+[7m Manual page man(1) line 225 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 226 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-case[0m[m
+[7m Manual page man(1) line 227 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore case when searching for manual pages.  This is the default.[m
+[7m Manual page man(1) line 228 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 229 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I[0m, [1m--match-case[0m[m
+[7m Manual page man(1) line 230 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Search for manual pages case-sensitively.[m
+[7m Manual page man(1) line 231 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 232 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--regex[0m[m
+[7m Manual page man(1) line 233 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Show all pages with any part of either their names or their descriptions matching each [4mpage[24m argument as  a  regular[m
+[7m Manual page man(1) line 234 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expression,  as with [1mapropos[0m(1).  Since there is usually no reasonable way to pick a "best" page when searching for[m
+[7m Manual page man(1) line 235 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              a regular expression, this option implies [1m-a[0m.[m
+[7m Manual page man(1) line 236 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 237 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--wildcard[0m[m
+[7m Manual page man(1) line 238 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Show all pages with any part of either their names or their descriptions matching each [4mpage[24m argument  using  shell-[m
+[7m Manual page man(1) line 239 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              style  wildcards,  as  with [1mapropos[0m(1) [1m--wildcard[0m.  The [4mpage[24m argument must match the entire name or description, or[m
+[7m Manual page man(1) line 240 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              match on word boundaries in the description.  Since there is usually no reasonable way to pick a "best"  page  when[m
+[7m Manual page man(1) line 241 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              searching for a wildcard, this option implies [1m-a[0m.[m
+[7m Manual page man(1) line 242 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 243 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--names-only[0m[m
+[7m Manual page man(1) line 244 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If the [1m--regex[0m or [1m--wildcard[0m option is used, match only page names, not page descriptions, as with [1mwhatis[0m(1).  Oth‐[m
+[7m Manual page man(1) line 245 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              erwise, no effect.[m
+[7m Manual page man(1) line 246 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 247 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m, [1m--all[0m[m
+[7m Manual page man(1) line 248 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              By default, [1mman[0m will exit after displaying the most suitable manual page it finds.  Using this option forces [1mman[0m to[m
+[7m Manual page man(1) line 249 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display all the manual pages with names that match the search criteria.[m
+[7m Manual page man(1) line 250 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 251 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--update[0m[m
+[7m Manual page man(1) line 252 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This option causes [1mman[0m to perform an `inode level' consistency check on its database caches to ensure that they are[m
+[7m Manual page man(1) line 253 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              an accurate representation of the filesystem.  It will only have a useful effect  if  [1mman[0m  is  installed  with  the[m
+[7m Manual page man(1) line 254 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              setuid bit set.[m
+[7m Manual page man(1) line 255 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 256 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-subpages[0m[m
+[7m Manual page man(1) line 257 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              By  default, [1mman[0m will try to interpret pairs of manual page names given on the command line as equivalent to a sin‐[m
+[7m Manual page man(1) line 258 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              gle manual page name containing a hyphen or an underscore.  This supports  the  common  pattern  of  programs  that[m
+[7m Manual page man(1) line 259 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              implement  a number of subcommands, allowing them to provide manual pages for each that can be accessed using simi‐[m
+[7m Manual page man(1) line 260 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lar syntax as would be used to invoke the subcommands themselves.  For example:[m
+[7m Manual page man(1) line 261 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 262 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                $ man -aw git diff[m
+[7m Manual page man(1) line 263 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                /usr/share/man/man1/git-diff.1.gz[m
+[7m Manual page man(1) line 264 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 265 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              To disable this behaviour, use the [1m--no-subpages[0m option.[m
+[7m Manual page man(1) line 266 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 267 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                $ man -aw --no-subpages git diff[m
+[7m Manual page man(1) line 268 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                /usr/share/man/man1/git.1.gz[m
+[7m Manual page man(1) line 269 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                /usr/share/man/man3/Git.3pm.gz[m
+[7m Manual page man(1) line 270 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                /usr/share/man/man1/diff.1.gz[m
+[7m Manual page man(1) line 271 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 272 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mControlling[0m [1mformatted[0m [1moutput[0m[m
+[7m Manual page man(1) line 273 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m [4mpager[24m, [1m--pager=[0m[4mpager[24m[m
+[7m Manual page man(1) line 274 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specify which output pager to use.  By default, [1mman[0m uses [1mless[0m [1m-s[0m.  This option overrides the $[1mMANPAGER[0m  environment[m
+[7m Manual page man(1) line 275 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              variable, which in turn overrides the $[1mPAGER[0m environment variable.  It is not used in conjunction with [1m-f[0m or [1m-k[0m.[m
+[7m Manual page man(1) line 276 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 277 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  value may be a simple command name or a command with arguments, and may use shell quoting (backslashes, single[m
+[7m Manual page man(1) line 278 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              quotes, or double quotes).  It may not use pipes to connect multiple commands; if you  need  that,  use  a  wrapper[m
+[7m Manual page man(1) line 279 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              script, which may take the file to display either as an argument or on standard input.[m
+[7m Manual page man(1) line 280 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 281 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m [4mprompt[24m, [1m--prompt=[0m[4mprompt[24m[m
+[7m Manual page man(1) line 282 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  a  recent  version  of [1mless[0m is used as the pager, [1mman[0m will attempt to set its prompt and some sensible options.[m
+[7m Manual page man(1) line 283 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The default prompt looks like[m
+[7m Manual page man(1) line 284 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 285 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [1mManual[0m [1mpage[0m [4mname[24m[1m([0m[4msec[24m[1m)[0m [1mline[0m [4mx[24m[m
+[7m Manual page man(1) line 286 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 287 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              where [4mname[24m denotes the manual page name, [4msec[24m denotes the section it was found under and [4mx[24m the current line  number.[m
+[7m Manual page man(1) line 288 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This is achieved by using the $[1mLESS[0m environment variable.[m
+[7m Manual page man(1) line 289 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 290 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Supplying  [1m-r[0m  with  a  string  will  override this default.  The string may contain the text [1m$MAN_PN[0m which will be[m
+[7m Manual page man(1) line 291 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expanded to the name of the current manual page and its section name surrounded by `(' and `)'.  The string used to[m
+[7m Manual page man(1) line 292 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              produce the default could be expressed as[m
+[7m Manual page man(1) line 293 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 294 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m\[0m [1mManual\[0m [1mpage\[0m [1m\$MAN_PN\[0m [1m?ltline\[0m [1m%lt?L/%L.:[0m[m
+[7m Manual page man(1) line 295 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mbyte\[0m [1m%bB?s/%s..?\[0m [1m(END):?pB\[0m [1m%pB\\%..[0m[m
+[7m Manual page man(1) line 296 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m(press[0m [1mh[0m [1mfor[0m [1mhelp[0m [1mor[0m [1mq[0m [1mto[0m [1mquit)[0m[m
+[7m Manual page man(1) line 297 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 298 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              It  is broken into three lines here for the sake of readability only.  For its meaning see the [1mless[0m(1) manual page.[m
+[7m Manual page man(1) line 299 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The prompt string is first evaluated by the shell.  All double quotes, back-quotes and backslashes  in  the  prompt[m
+[7m Manual page man(1) line 300 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              must  be escaped by a preceding backslash.  The prompt string may end in an escaped $ which may be followed by fur‐[m
+[7m Manual page man(1) line 301 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ther options for less.  By default [1mman[0m sets the [1m-ix8[0m options.[m
+[7m Manual page man(1) line 302 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 303 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If you want to override [1mman[0m's prompt string processing completely, use the $[1mMANLESS[0m environment variable  described[m
+[7m Manual page man(1) line 304 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              below.[m
+[7m Manual page man(1) line 305 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 306 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-7[0m, [1m--ascii[0m[m
+[7m Manual page man(1) line 307 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              When  viewing a pure [4mascii[24m(7) manual page on a 7 bit terminal or terminal emulator, some characters may not display[m
+[7m Manual page man(1) line 308 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              correctly when using the [4mlatin1[24m(7) device description with [1mGNU[0m [1mnroff[0m.  This option allows pure [4mascii[24m  manual  pages[m
+[7m Manual page man(1) line 309 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to be displayed in [4mascii[24m with the [4mlatin1[24m device.  It will not translate any [4mlatin1[24m text.  The following table shows[m
+[7m Manual page man(1) line 310 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the translations performed: some parts of it may only be  displayed  properly  when  using  [1mGNU[0m  [1mnroff[0m's  [4mlatin1[24m(7)[m
+[7m Manual page man(1) line 311 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              device.[m
+[7m Manual page man(1) line 312 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 313 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Description           Octal   latin1   ascii[m
+[7m Manual page man(1) line 314 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ─────────────────────────────────────────────[m
+[7m Manual page man(1) line 315 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              continuation hyphen    255      ‐        -[m
+[7m Manual page man(1) line 316 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              bullet (middle dot)    267      ·        o[m
+[7m Manual page man(1) line 317 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              acute accent           264      ´        '[m
+[7m Manual page man(1) line 318 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              multiplication sign    327      ×        x[m
+[7m Manual page man(1) line 319 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 320 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  the  [4mlatin1[24m column displays correctly, your terminal may be set up for [4mlatin1[24m characters and this option is not[m
+[7m Manual page man(1) line 321 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              necessary.  If the [4mlatin1[24m and [4mascii[24m columns are identical, you are reading this page using this option or  [1mman[0m  did[m
+[7m Manual page man(1) line 322 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              not format this page using the [4mlatin1[24m device description.  If the [4mlatin1[24m column is missing or corrupt, you may need[m
+[7m Manual page man(1) line 323 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to view manual pages with this option.[m
+[7m Manual page man(1) line 324 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 325 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This option is ignored when using options [1m-t[0m, [1m-H[0m, [1m-T[0m, or [1m-Z[0m and may be useless for [1mnroff[0m other than [1mGNU's[0m.[m
+[7m Manual page man(1) line 326 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 327 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E[0m [4mencoding[24m, [1m--encoding[0m=[4mencoding[24m[m
+[7m Manual page man(1) line 328 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Generate output for a character encoding other than the default.  For backward compatibility, [4mencoding[24m  may  be  an[m
+[7m Manual page man(1) line 329 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mnroff[0m device such as [1mascii[0m, [1mlatin1[0m, or [1mutf8[0m as well as a true character encoding such as [1mUTF-8[0m.[m
+[7m Manual page man(1) line 330 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 331 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-hyphenation[0m, [1m--nh[0m[m
+[7m Manual page man(1) line 332 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Normally,  [1mnroff[0m  will automatically hyphenate text at line breaks even in words that do not contain hyphens, if it[m
+[7m Manual page man(1) line 333 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              is necessary to do so to lay out words on a line without excessive spacing.  This option disables automatic hyphen‐[m
+[7m Manual page man(1) line 334 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ation, so words will only be hyphenated if they already contain hyphens.[m
+[7m Manual page man(1) line 335 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 336 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  you  are  writing  a  manual  page and simply want to prevent [1mnroff[0m from hyphenating a word at an inappropriate[m
+[7m Manual page man(1) line 337 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              point, do not use this option, but consult the [1mnroff[0m documentation instead; for instance, you can put "\%" inside a[m
+[7m Manual page man(1) line 338 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              word  to  indicate  that  it may be hyphenated at that point, or put "\%" at the start of a word to prevent it from[m
+[7m Manual page man(1) line 339 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              being hyphenated.[m
+[7m Manual page man(1) line 340 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 341 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-justification[0m, [1m--nj[0m[m
+[7m Manual page man(1) line 342 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Normally, [1mnroff[0m will automatically justify text to both margins.  This option disables full justification,  leaving[m
+[7m Manual page man(1) line 343 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              justified only to the left margin, sometimes called "ragged-right" text.[m
+[7m Manual page man(1) line 344 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 345 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  you  are  writing a manual page and simply want to prevent [1mnroff[0m from justifying certain paragraphs, do not use[m
+[7m Manual page man(1) line 346 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              this option, but consult the [1mnroff[0m documentation instead; for instance, you can use the ".na",  ".nf",  ".fi",  and[m
+[7m Manual page man(1) line 347 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ".ad" requests to temporarily disable adjusting and filling.[m
+[7m Manual page man(1) line 349 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 350 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m [4mstring[24m, [1m--preprocessor=[0m[4mstring[24m[m
+[7m Manual page man(1) line 351 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specify  the  sequence of preprocessors to run before [1mnroff[0m or [1mtroff[0m/[1mgroff[0m.  Not all installations will have a full[m
+[7m Manual page man(1) line 352 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              set of preprocessors.  Some of the preprocessors and the letters used to designate them are: [1meqn[0m ([1me[0m), [1mgrap[0m ([1mg[0m), [1mpic[0m[m
+[7m Manual page man(1) line 353 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ([1mp[0m),  [1mtbl[0m  ([1mt[0m),  [1mvgrind[0m  ([1mv[0m),  [1mrefer[0m  ([1mr[0m).  This option overrides the $[1mMANROFFSEQ[0m environment variable.  [1mzsoelim[0m is[m
+[7m Manual page man(1) line 354 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              always run as the very first preprocessor.[m
+[7m Manual page man(1) line 355 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 356 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--troff[0m[m
+[7m Manual page man(1) line 357 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use [4mgroff[24m [4m-mandoc[24m to format the manual page to stdout.  This option is not required in conjunction with [1m-H[0m, [1m-T[0m,  or[m
+[7m Manual page man(1) line 358 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-Z[0m.[m
+[7m Manual page man(1) line 359 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 360 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m[[4mdevice[24m], [1m--troff-device[0m[=[4mdevice[24m][m
+[7m Manual page man(1) line 361 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This  option  is  used  to  change  [1mgroff[0m  (or  possibly [1mtroff's[0m) output to be suitable for a device other than the[m
+[7m Manual page man(1) line 362 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              default.  It implies [1m-t[0m.  Examples (provided with Groff-1.17) include [1mdvi[0m, [1mlatin1[0m, [1mps[0m, [1mutf8[0m, [1mX75[0m and [1mX100[0m.[m
+[7m Manual page man(1) line 363 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 364 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m[[4mbrowser[24m], [1m--html[0m[=[4mbrowser[24m][m
+[7m Manual page man(1) line 365 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This option will cause [1mgroff[0m to produce HTML output, and will display that output in a web browser.  The choice  of[m
+[7m Manual page man(1) line 366 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              browser is determined by the optional [4mbrowser[24m argument if one is provided, by the $[1mBROWSER[0m environment variable, or[m
+[7m Manual page man(1) line 367 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              by a compile-time default if that is unset (usually [1mlynx[0m).  This option implies [1m-t[0m, and will  only  work  with  [1mGNU[0m[m
+[7m Manual page man(1) line 368 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mtroff[0m.[m
+[7m Manual page man(1) line 369 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 370 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-X[0m[[4mdpi[24m], [1m--gxditview[0m[=[4mdpi[24m][m
+[7m Manual page man(1) line 371 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This  option  displays  the  output  of [1mgroff[0m in a graphical window using the [1mgxditview[0m program.  The [4mdpi[24m (dots per[m
+[7m Manual page man(1) line 372 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              inch) may be 75, 75-12, 100, or 100-12, defaulting to 75; the -12 variants use a 12-point base font.   This  option[m
+[7m Manual page man(1) line 373 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              implies [1m-T[0m with the X75, X75-12, X100, or X100-12 device respectively.[m
+[7m Manual page man(1) line 374 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 375 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[0m, [1m--ditroff[0m[m
+[7m Manual page man(1) line 376 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mgroff[0m  will  run [1mtroff[0m and then use an appropriate post-processor to produce output suitable for the chosen device.[m
+[7m Manual page man(1) line 377 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mgroff[24m [4m-mandoc[24m is [1mgroff[0m, this option is passed to [1mgroff[0m and will  suppress  the  use  of  a  post-processor.   It[m
+[7m Manual page man(1) line 378 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              implies [1m-t[0m.[m
+[7m Manual page man(1) line 379 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 380 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGetting[0m [1mhelp[0m[m
+[7m Manual page man(1) line 381 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-?[0m, [1m--help[0m[m
+[7m Manual page man(1) line 382 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print a help message and exit.[m
+[7m Manual page man(1) line 383 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 384 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--usage[0m[m
+[7m Manual page man(1) line 385 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print a short usage message and exit.[m
+[7m Manual page man(1) line 386 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 387 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[0m, [1m--version[0m[m
+[7m Manual page man(1) line 388 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display version information.[m
+[7m Manual page man(1) line 389 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 390 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mSTATUS[0m[m
+[7m Manual page man(1) line 391 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m0[0m      Successful program execution.[m
+[7m Manual page man(1) line 392 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 393 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m1[0m      Usage, syntax or configuration file error.[m
+[7m Manual page man(1) line 394 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 395 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m2[0m      Operational error.[m
+[7m Manual page man(1) line 396 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 397 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m3[0m      A child process returned a non-zero exit status.[m
+[7m Manual page man(1) line 398 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 399 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m16[0m     At least one of the pages/files/keywords didn't exist or wasn't matched.[m
+[7m Manual page man(1) line 400 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 401 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mENVIRONMENT[0m[m
+[7m Manual page man(1) line 402 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANPATH[0m[m
+[7m Manual page man(1) line 403 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If $[1mMANPATH[0m is set, its value is used as the path to search for manual pages.[m
+[7m Manual page man(1) line 404 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 405 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANROFFOPT[0m[m
+[7m Manual page man(1) line 406 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  contents  of  $[1mMANROFFOPT[0m are added to the command line every time [1mman[0m invokes the formatter ([1mnroff[0m, [1mtroff[0m, or[m
+[7m Manual page man(1) line 407 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mgroff[0m).[m
+[7m Manual page man(1) line 408 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 409 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANROFFSEQ[0m[m
+[7m Manual page man(1) line 410 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If $[1mMANROFFSEQ[0m is set, its value is used to determine the set of preprocessors to pass each  manual  page  through.[m
+[7m Manual page man(1) line 411 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The default preprocessor list is system dependent.[m
+[7m Manual page man(1) line 412 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 413 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANSECT[0m[m
+[7m Manual page man(1) line 414 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  $[1mMANSECT[0m  is set, its value is a colon-delimited list of sections and it is used to determine which manual sec‐[m
+[7m Manual page man(1) line 415 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tions to search and in what order.[m
+[7m Manual page man(1) line 416 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 417 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANPAGER[0m, [1mPAGER[0m[m
+[7m Manual page man(1) line 418 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If $[1mMANPAGER[0m or $[1mPAGER[0m is set ($[1mMANPAGER[0m is used in preference), its value is used as the name of the program  used[m
+[7m Manual page man(1) line 419 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to display the manual page.  By default, [1mless[0m [1m-s[0m is used.[m
+[7m Manual page man(1) line 420 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 421 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  value may be a simple command name or a command with arguments, and may use shell quoting (backslashes, single[m
+[7m Manual page man(1) line 422 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              quotes, or double quotes).  It may not use pipes to connect multiple commands; if you  need  that,  use  a  wrapper[m
+[7m Manual page man(1) line 423 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              script, which may take the file to display either as an argument or on standard input.[m
+[7m Manual page man(1) line 424 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 425 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANLESS[0m[m
+[7m Manual page man(1) line 426 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  $[1mMANLESS[0m is set, [1mman[0m will not perform any of its usual processing to set up a prompt string for the [1mless[0m pager.[m
+[7m Manual page man(1) line 427 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Instead, the value of $[1mMANLESS[0m will be copied verbatim into $[1mLESS[0m.  For example, if you  want  to  set  the  prompt[m
+[7m Manual page man(1) line 428 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              string unconditionally to “my prompt string”, set $[1mMANLESS[0m to ‘[1m-Psmy[0m [1mprompt[0m [1mstring[0m’.[m
+[7m Manual page man(1) line 429 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 430 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mBROWSER[0m[m
+[7m Manual page man(1) line 431 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  $[1mBROWSER[0m is set, its value is a colon-delimited list of commands, each of which in turn is used to try to start[m
+[7m Manual page man(1) line 432 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              a web browser for [1mman[0m [1m--html[0m.  In each command, [4m%s[24m is replaced by a filename containing the HTML output from [1mgroff[0m,[m
+[7m Manual page man(1) line 433 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4m%%[24m is replaced by a single percent sign (%), and [4m%c[24m is replaced by a colon (:).[m
+[7m Manual page man(1) line 434 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 435 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mSYSTEM[0m If $[1mSYSTEM[0m is set, it will have the same effect as if it had been specified as the argument to the [1m-m[0m option.[m
+[7m Manual page man(1) line 436 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 437 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANOPT[0m If $[1mMANOPT[0m is set, it will be parsed prior to [1mman's[0m command line and is expected to be in a similar format.  As all[m
+[7m Manual page man(1) line 438 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of the other [1mman[0m specific environment variables can be expressed as command line options, and are  thus  candidates[m
+[7m Manual page man(1) line 439 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              for being included in $[1mMANOPT[0m it is expected that they will become obsolete.  N.B. All spaces that should be inter‐[m
+[7m Manual page man(1) line 440 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preted as part of an option's argument must be escaped.[m
+[7m Manual page man(1) line 441 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 442 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMANWIDTH[0m[m
+[7m Manual page man(1) line 443 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If $[1mMANWIDTH[0m is set, its value is used as the line length for which manual pages should be formatted.  If it is not[m
+[7m Manual page man(1) line 444 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              set,  manual  pages  will be formatted with a line length appropriate to the current terminal (using an [1mioctl[0m(2) if[m
+[7m Manual page man(1) line 445 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              available, the value of $[1mCOLUMNS[0m, or falling back to 80 characters if neither is available).  Cat pages  will  only[m
+[7m Manual page man(1) line 446 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be  saved when the default formatting can be used, that is when the terminal line length is between 66 and 80 char‐[m
+[7m Manual page man(1) line 447 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              acters.[m
+[7m Manual page man(1) line 448 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 449 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMAN_KEEP_FORMATTING[0m[m
+[7m Manual page man(1) line 450 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Normally, when output is not being directed to a terminal (such as to a file or a pipe), formatting characters  are[m
+[7m Manual page man(1) line 451 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              discarded  to  make it easier to read the result without special tools.  However, if $[1mMAN_KEEP_FORMATTING[0m is set to[m
+[7m Manual page man(1) line 452 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              any non-empty value, these formatting characters are retained.  This may be useful for wrappers around [1mman[0m that can[m
+[7m Manual page man(1) line 453 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              interpret formatting characters.[m
+[7m Manual page man(1) line 454 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 455 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMAN_KEEP_STDERR[0m[m
+[7m Manual page man(1) line 456 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Normally,  when output is being directed to a terminal (usually to a pager), any error output from the command used[m
+[7m Manual page man(1) line 457 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to produce formatted versions of manual pages is discarded to avoid interfering with the pager's display.  Programs[m
+[7m Manual page man(1) line 458 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              such  as  [1mgroff[0m  often produce relatively minor error messages about typographical problems such as poor alignment,[m
+[7m Manual page man(1) line 459 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              which are unsightly and generally confusing when displayed along with the manual page.  However, some users want to[m
+[7m Manual page man(1) line 460 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              see them anyway, so, if $[1mMAN_KEEP_STDERR[0m is set to any non-empty value, error output will be displayed as usual.[m
+[7m Manual page man(1) line 461 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 462 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mLANG[0m, [1mLC_MESSAGES[0m[m
+[7m Manual page man(1) line 463 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Depending  on system and implementation, either or both of $[1mLANG[0m and $[1mLC_MESSAGES[0m will be interrogated for the cur‐[m
+[7m Manual page man(1) line 464 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              rent message locale.  [1mman[0m will display its messages in that locale (if available).  See  [1msetlocale[0m(3)  for  precise[m
+[7m Manual page man(1) line 465 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              details.[m
+[7m Manual page man(1) line 466 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 467 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mFILES[0m[m
+[7m Manual page man(1) line 468 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/etc/man_db.conf[24m[m
+[7m Manual page man(1) line 469 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              man-db configuration file.[m
+[7m Manual page man(1) line 470 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 471 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/usr/share/man[24m[m
+[7m Manual page man(1) line 472 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              A global manual page hierarchy.[m
+[7m Manual page man(1) line 473 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 474 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/usr/share/man/index.(bt|db|dir|pag)[24m[m
+[7m Manual page man(1) line 475 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              A traditional global [4mindex[24m database cache.[m
+[7m Manual page man(1) line 476 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 477 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/var/cache/man/index.(bt|db|dir|pag)[24m[m
+[7m Manual page man(1) line 478 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              An FHS compliant global [4mindex[24m database cache.[m
+[7m Manual page man(1) line 479 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 480 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page man(1) line 481 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mapropos[0m(1),  [1mgroff[0m(1), [1mless[0m(1), [1mmanpath[0m(1), [1mnroff[0m(1), [1mtroff[0m(1), [1mwhatis[0m(1), [1mzsoelim[0m(1), [1msetlocale[0m(3), [1mmanpath[0m(5), [1mascii[0m(7),[m
+[7m Manual page man(1) line 482 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mlatin1[0m(7), [1mman[0m(7), [1mcatman[0m(8), [1mmandb[0m(8), the man-db package manual, [1mFSSTND[0m[m
+[7m Manual page man(1) line 483 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 484 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m[m
+[7m Manual page man(1) line 485 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       1990, 1991 - Originally written by John W. Eaton (jwe@che.utexas.edu).[m
+[7m Manual page man(1) line 486 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 487 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Dec 23 1992: Rik Faith (faith@cs.unc.edu) applied bug fixes supplied by Willem Kasdorp (wkasdo@nikhefk.nikef.nl).[m
+[7m Manual page man(1) line 488 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 489 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       30th April 1994 - 23rd February 2000: Wilf. (G.Wilford@ee.surrey.ac.uk) has been developing and maintaining  this  package[m
+[7m Manual page man(1) line 490 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       with the help of a few dedicated people.[m
+[7m Manual page man(1) line 491 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 492 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       30th  October  1996 - 30th March 2001: Fabrizio Polacco <fpolacco@debian.org> maintained and enhanced this package for the[m
+[7m Manual page man(1) line 493 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Debian project, with the help of all the community.[m
+[7m Manual page man(1) line 494 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 495 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       31st March 2001 - present day: Colin Watson <cjwatson@debian.org> is now developing and maintaining man-db.[m
+[7m Manual page man(1) line 496 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page man(1) line 497 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K2.6.3                                                       2012-09-17                                                     MAN(1)[m
+[7m Manual page man(1) line 498 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KCC[H[2J[Hoth of $[1mLANG[0m and $[1mLC_MESSAGES[0m will be interrogated for the cur‐[m
+in that locale (if available).  See  [1msetlocale[0m(3)  for  precise[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+(1), [1mwhatis[0m(1), [1mzsoelim[0m(1), [1msetlocale[0m(3), [1mmanpath[0m(5), [1mascii[0m(7),[m
+manual, [1mFSSTND[0m[m
+[m
+[m
+texas.edu).[m
+[m
+ supplied by Willem Kasdorp (wkasdo@nikhefk.nikef.nl).[m
+[m
+urrey.ac.uk) has been developing and maintaining  this  package[m
+[m
+[m
+olacco@debian.org> maintained and enhanced this package for the[m
+[m
+[m
+n.org> is now developing and maintaining man-db.[m
+[m
+9-17                                                     MAN(1)[m
+[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[7m Manual page man(1) line 498/534 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ echo "Welcome to UNIX!"
+bash: !": event not found
+[nlam15@gsuad.gsu.edu@snowball csc3320]$ echo "wel[K[K[KWelcome to Uni[K[KNIX"
+Welcome to UNIX
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ echo "Welcome to UNIX![K !"
+bash: !": event not found
+[nlam15@gsuad.gsu.edu@snowball csc3320]$ echo 'wel[K[K[KWelcome to Unix![K[KX[K[K[KNIX!'
+Welcome to UNIX!
+]0;nlam15@gsuad.gsu.edu@snowball:~/csc3320[nlam15@gsuad.gsu.edu@snowball csc3320]$ exit
+
+Script done on Thu 18 Jan 2024 11:16:58 AM EST
