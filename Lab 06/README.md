@@ -1,5 +1,5 @@
 LAB TASK 💻: <br/>
-<br/>    • Write two C programs to compare the performance of buffered and unbuffered I/O operations by writing a string to a file 1 millions times. 
+<br/>    ▾ Write two C programs to compare the performance of buffered and unbuffered I/O operations by writing a string to a file 1 millions times. 
 
 <br/>
 <br/>    • Unbuffered I/O Program:
