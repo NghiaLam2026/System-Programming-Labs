@@ -1,5 +1,5 @@
 LAB TASK 💻: <br/> <br/>
-  ▾ Write a C program to calculate the time it takes for an object to reach the ground, it's velocity upon impact, and its kinetic energy at the moment of impact, given a user-specified height from which the object is dropped. <br/>
+  <br/> ▾ Write a C program to calculate the time it takes for an object to reach the ground, it's velocity upon impact, and its kinetic energy at the moment of impact, given a user-specified height from which the object is dropped. <br/>
 
     Time Calculations: 
         • Formula: t = √2h/g
