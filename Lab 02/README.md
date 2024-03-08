@@ -1,4 +1,4 @@
-• LAB TASKS💻:
+LAB TASKS💻:
 
     • The task if to write a "Hello World" program in C. <br/>
     • The program must display the phrase "Hello World" in the terminal upon execution, along with information about the 3320 courses. <br/>
